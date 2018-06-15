@@ -1239,7 +1239,7 @@ def bot(op):
                        else:
                            for target in targets:
                                 try:
-									wait["blacklist"][target] = True
+									wait["blacklist"][target] 
 									f=codecs.open('st2__b.json','w','utf-8')
 									json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
 									acil.sendText(msg.to,"Target Locked")
