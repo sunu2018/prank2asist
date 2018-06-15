@@ -1202,7 +1202,7 @@ def bot(op):
 #----------------------------------------------------------
             elif "Unban @" in msg.text:
                 if msg.toType == 2:
-                    print "[Unban]ok"
+                    print ("[Unban]ok")
                     _name = msg.text.replace("Unban @","")
                     _nametarget = _name.rstrip()
                     gs = acil.getGroup(msg.to)
