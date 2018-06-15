@@ -17,7 +17,7 @@ pb2 = PRANKBOTS.LINE("Et0Oj6SRTe8eGtw9jK3d.SPS+quoffhJbcv30K1vAdq.gD9LSFBUBorGs5
 pb2.login(token="token asist 2")
 pb2.loginResult()
 
-print "login success"
+print ("login success")
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
