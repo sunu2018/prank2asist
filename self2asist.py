@@ -5,21 +5,17 @@ from PRANKBOTS.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
-#acil = PRANKBOTS.LINE() 
-#acil.login(token="token akun utama/selfbot")
-#acil.loginResult()
+acil = PRANKBOTS.LINE("EtHO8rZgTw1q6juRoVvf.4YSrMg2oNLZ3c2qS97Qi+W.k2TeLOz1HTtz2jJ+CuaaDHN+R9wcNMOY2hfRLRA6GvA=")
+acil.login(token="token akun utama/selfbot")
+acil.loginResult()
 
-#pb1 = PRANKBOTS.LINE() 
-#pb1.login(token="token asist 1")
-#pb1.loginResult()
+pb1 = PRANKBOTS.LINE("EtQQZ5O8Q9ZNn47rzMCd.ZumT2/Y29n7tOJ4IwPo4tq.1TFAsQAvYzlyAp1XEM5RsdIZwZtoEnir3y6dea1fo1E=")
+pb1.login(token="token asist 1")
+pb1.loginResult()
 
-#pb2 = PRANKBOTS.LINE() 
-#pb2.login(token="token asist 2")
-#pb2.loginResult()
-
-acil = LINE("EtHO8rZgTw1q6juRoVvf.4YSrMg2oNLZ3c2qS97Qi+W.k2TeLOz1HTtz2jJ+CuaaDHN+R9wcNMOY2hfRLRA6GvA=")
-pb1 = LINE("EtQQZ5O8Q9ZNn47rzMCd.ZumT2/Y29n7tOJ4IwPo4tq.1TFAsQAvYzlyAp1XEM5RsdIZwZtoEnir3y6dea1fo1E=")
-pb2 = LINE("Et0Oj6SRTe8eGtw9jK3d.SPS+quoffhJbcv30K1vAdq.gD9LSFBUBorGs552hX0ltdIVxai6oaF/Ox4aGWcOFJA=")
+pb2 = PRANKBOTS.LINE("Et0Oj6SRTe8eGtw9jK3d.SPS+quoffhJbcv30K1vAdq.gD9LSFBUBorGs552hX0ltdIVxai6oaF/Ox4aGWcOFJA=")
+pb2.login(token="token asist 2")
+pb2.loginResult()
 
 print "login success"
 reload(sys)
