@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from linepy import *
+from PRANKBOTS import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
 from datetime import datetime
@@ -12,11 +12,11 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 #==============================================================================#
-line = LINE()
+PRANKBOTS = LINE()
 #line = LINE("เมล","พาส")
 #line = LINE('')
-line.log("Auth Token : " + str(line.authToken))
-line.log("Timeline Token : " + str(line.tl.channelAccessToken))
+PRANKBOTS.log("Auth Token : " + str(line.authToken))
+PRANKBOTS.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
 print ("Login Succes")
 
