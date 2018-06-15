@@ -1,30 +1,46 @@
-# DONE UPDATE 5_FEBRUARY_2018
+# DnA Bot LinePy
+Account :
+1 Admin,
+11 Bot Assist,
+Total : 12
 
-# 1 selfbot 2 asist
-V2.1 editor_::
-Prankbots
-# PRANKBOTS
-![Prankbots](prankbots.png)
-V2.1 last update::
-05/0/2018
-# CONTACT OFFICIAL
+Cara Instal di termux: 
+- pkg install python3 
+- pkg install pip3 
+- pkg install git 
+- git clone https://github.com/Dee-n-a/Rin
+- pip3 install rsa 
+- pip3 install thrift==0.11.0 
+- pip3 install humanfriendly
+- pip3 install requests 
+- cd Rin
+- python3 dna.py
 
-<a href="https://line.me/R/ti/p/%40gnh2780p"><img height="36" border="0" alt="Add Friend" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
 
-# LINE ME
+Cara Install Self ProtectPy3 di c9: 
+- apt update 
+- apt install git 
+- apt install python3 
+- apt install pip3==python3 
+- pip3 install rsa 
+- pip3 install thrift 
+- pip3 install requests 
+- pip3 install humanfriendly 
+- git clone https://github.com/Dee-n-a/Rin
+- cd protectpy3 
+- python3 protectpy3.py 
 
-[ADD_LINE](http://line.me/ti/p/~adiputra.95)
 
-# TUTORIAL YOUTUBE
-[LIHAT_DISINI](https://youtu.be/j9VqQBZCcec)
+Credit By Dee 
+- Add My ID LINE : 〘 https://line.me/ti/p/ppgIZ0JLDW 〙
 
-[@SUBCRABE](https://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ)
 
-[BUAT AMBIL TOKKEN](http://101.255.95.249:6969)
 
-## THANKS TO.
-```=========
-Allah swt
-Prankbots
-Black of gamer
-Dan kawan-Kawan```
+Thx To : 
+- Ghost Team
+- BotEater
+- HELLO-WORLD
+- Nadya Sutjiadi
+- iiipuuul
+- Eva wongmu
+- Inne Febriani
