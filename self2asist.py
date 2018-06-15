@@ -1108,7 +1108,7 @@ def bot(op):
                                 except:
                                     acil.leaveGroup(msg.to)
                                     gs = acil.getGroup(msg.to)
-                        	    gs.preventJoinByTicket = False
+                        	    gs.preventJoinByTicket == True:
                         	    acil.updateGroup(gs)
                                     gs.preventJoinByTicket(gs)
                         	    acil.updateGroup(gs)
