@@ -1108,10 +1108,10 @@ def bot(op):
                                 except:
                                     acil.leaveGroup(msg.to)
                                     gs = acil.getGroup(msg.to)
-  #                      	    gs.preventJoinByTicket
-  #                      	    acil.updateGroup(gs)
-  #                                  gs.preventJoinByTicket(gs)
-  #                      	    acil.updateGroup(gs)
+                        	    gs.preventJoinByTicket
+                        	    acil.updateGroup(gs)
+                                    gs.preventJoinByTicket(gs)
+                        	    acil.updateGroup(gs)
 #-----------------------------------------------------------
 
             elif ("Sikat " in msg.text):
