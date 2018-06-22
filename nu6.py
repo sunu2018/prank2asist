@@ -5,17 +5,18 @@ from PRANKBOTS.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
-acil = PRANKBOTS.LINE("EtHO8rZgTw1q6juRoVvf.4YSrMg2oNLZ3c2qS97Qi+W.k2TeLOz1HTtz2jJ+CuaaDHN+R9wcNMOY2hfRLRA6GvA=")
+acil = PRANKBOTS.LINE()
+#acil = PRANKBOTS.LINE("EtHO8rZgTw1q6juRoVvf.4YSrMg2oNLZ3c2qS97Qi+W.k2TeLOz1HTtz2jJ+CuaaDHN+R9wcNMOY2hfRLRA6GvA=")
 acil.login(token="token akun utama/selfbot")
 acil.loginResult()
 
-pb1 = PRANKBOTS.LINE("EtQQZ5O8Q9ZNn47rzMCd.ZumT2/Y29n7tOJ4IwPo4tq.1TFAsQAvYzlyAp1XEM5RsdIZwZtoEnir3y6dea1fo1E=")
-pb1.login(token="token asist 1")
-pb1.loginResult()
+#pb1 = PRANKBOTS.LINE("EtQQZ5O8Q9ZNn47rzMCd.ZumT2/Y29n7tOJ4IwPo4tq.1TFAsQAvYzlyAp1XEM5RsdIZwZtoEnir3y6dea1fo1E=")
+#pb1.login(token="token asist 1")
+#pb1.loginResult()
 
-pb2 = PRANKBOTS.LINE("Et0Oj6SRTe8eGtw9jK3d.SPS+quoffhJbcv30K1vAdq.gD9LSFBUBorGs552hX0ltdIVxai6oaF/Ox4aGWcOFJA=")
-pb2.login(token="token asist 2")
-pb2.loginResult()
+#pb2 = PRANKBOTS.LINE("Et0Oj6SRTe8eGtw9jK3d.SPS+quoffhJbcv30K1vAdq.gD9LSFBUBorGs552hX0ltdIVxai6oaF/Ox4aGWcOFJA=")
+#pb2.login(token="token asist 2")
+#pb2.loginResult()
 
 print ("login success")
 reload(sys)
@@ -116,11 +117,11 @@ helpMessage ="""(╣•℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍
 """
 helo="====I AM SELF PRANKBOTS"
 
-KAC=[acil,pb1,pb2]
+KAC=[acil]#,pb1,pb2]
 mid = acil.getProfile().mid
-pb1mid = pb1.getProfile().mid
-pb2mid = pb2.getProfile().mid
-Bots=[mid,pb1mid,pb2mid]
+#pb1mid = pb1.getProfile().mid
+#pb2mid = pb2.getProfile().mid
+Bots=[mid]#,pb1mid,pb2mid]
 admsa = "mid akun utama/sb"
 
 wait = {
